@@ -1,0 +1,1009 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Sedan:ital@0;1&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sedan", serif;
+}
+
+body{
+    background-color: black;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    color:#fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Pridi", serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+header .logo:hover{
+    color: #43DE28;
+    transition: 1s;
+    font-size: 1.8em;
+}
+
+header .navbar{
+    position: relative;
+    display: flex; 
+}
+
+header .navbar li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding:10px;
+    transition: 0.3s;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+header .navbar li a:hover{
+    border-bottom: 1px solid #43DE28;
+    color: #43DE28;
+    transition: 0.3s;
+    font-size: 1.5em;
+}
+
+/*Contenido de la web*/
+
+/*Quién soy*/
+.contenido{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.contenido .tituloBox{
+    padding-top: 46px;
+    position: relative;
+    max-width: 900px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.contenido .tituloBox h2{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.contenido .tituloBox h2:hover{
+    color: white;
+}
+
+.estudiante{
+    background: #43DE28;
+    border-radius: 20px;
+    width: 460px;
+    margin-left: 26%;
+    font-family: "Pridi", serif;
+    font-weight: 800;
+}
+
+.contenido .tituloBox h2 span{
+    background: #43DE28;
+    color: black;
+    padding:0px 10px;
+    font-family: "Pridi", serif;
+    font-weight: 800;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.contenido .tituloBox h2 span:hover{
+    color: white;
+}
+
+.contenido .tituloBox a{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    background: #fff;
+    padding: 10px 10px 10px 10px;
+    margin:auto;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.contenido .tituloBox a:hover{
+    color:white;
+    background: #43DE28;
+    transition: 0.5s;
+    font-size: 1.6em;
+}
+
+/*Videos fondo*/
+
+.video{
+    z-index: -2;
+    position: fixed;
+    width: auto;
+    height: auto;
+}
+
+        /*Imagen fondo derecha*/
+
+.imgMulti{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin-right: 80px;
+    opacity: 70%;
+}
+
+.imgMulti:hover{
+    width: 700px;
+    height: 700px;
+    transition: 0.5s;
+    margin-right: 50px;
+    opacity: 95%;
+}
+
+/* Copyright */
+.copyright{
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 20px;
+    margin-top: 500px;
+    padding-top: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    margin-bottom: 10px;
+    color:white;
+    text-align: center;
+}
+
+.copyright p:hover{
+    color:#43DE28;
+    text-shadow: white;
+    ;
+    
+}
+
+/* Redes Sociales */
+.redesSociales{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px 30px;
+    list-style: none;
+}
+
+.redesSociales li{
+    padding: 10px; 
+}
+
+.redesSociales li a{
+    color: white;
+    font-size: 2.5em;
+    transition: 0.3s; 
+}
+
+.redesSociales li a:hover{
+    color: #43DE28;
+    font-size: 4em;
+}
+
+/* Proyectos destacados */
+
+        /* Imagen top left*/
+
+.imgP1 a{
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    display: flex;
+    margin-top:-380px;
+    margin-left:-900px;
+    opacity: 85%;
+    transition: 3s;
+
+}
+
+.imgP1 a:hover{
+    margin-top:-300px;
+    margin-left:-600px;
+    width: 600px;
+    height: 600px;
+    z-index: 1;
+    opacity: 100%;
+}
+
+        /* Imagen top right*/
+
+.imgP2 a{
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    display: flex;
+    margin-top:-380px;
+    margin-left:300px;
+    opacity: 85%;
+    transition: 3s;
+}
+
+.imgP2 a:hover{
+    margin-top:-300px;
+    margin-left:-600px;
+    width: 600px;
+    height: 600px;
+    z-index: 1;
+    opacity: 100%;
+}
+
+        /* Imagen bottom left*/
+
+.imgP3 a{
+    width: 300px;
+    height: 297px;
+    position:absolute;
+    display: flex;
+    margin-top:20px;
+    margin-left:-900px;
+    opacity: 85%;
+    transition: 3s;
+}
+
+.imgP3 a:hover{
+    margin-top:-300px;
+    margin-left:-600px;
+    width: 600px;
+    height: 600px;
+    z-index: 1;
+    opacity: 100%;
+}
+
+        /* Imagen bottom right*/
+
+.imgP4 a{
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    display: flex;
+    margin-top:20px;
+    margin-left:300px;
+    opacity: 85%;
+    transition: 3s;
+}
+
+.imgP4 a:hover{
+    margin-top:-300px;
+    margin-left:-600px;
+    width: 600px;
+    height: 600px;
+    z-index: 1;
+    opacity: 100%;
+}
+
+        /* Imagen middle*/
+
+.imgP5 a{
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    display: flex;
+    margin-top:-200px;
+    margin-left:-305px;
+    opacity: 85%;
+    transition: 3s;
+}
+
+.imgP5 a:hover{
+    margin-top:-300px;
+    margin-left:-600px;
+    width: 600px;
+    height: 600px;
+    z-index: 1;
+    opacity: 100%;
+}
+
+/*CV*/
+
+        /*Imagen*/
+
+.imgCV{
+    width: 300px;
+    position: absolute;
+    display: flex;
+    margin-left: -850px;
+    margin-top: -350px;
+}
+
+.imgCV:hover{
+    width: 350px;
+    transition: 0.5s;
+    margin-top: -380px;
+    margin-left: -880px;
+}
+
+        /*textos*/
+
+.textoCV{
+    color:White;
+    font-family: "Pridi", serif;
+    font-size: 18px;
+    width: 70%;
+    position: absolute;
+    text-align: justify;
+    margin-top: -400px;
+    margin-left: 500px;
+}
+
+.textoCV h2{
+    color:#43DE28;
+    text-transform: uppercase;
+}
+
+.textoCV ul{
+    font-family: "Pridi", serif;
+    font-size: 20px;
+    padding-top: 12px; 
+}
+
+.textoCV li{
+    padding-top: 4px;
+}
+
+.textoCV li:hover{
+    font-size: 24px;
+    color: #43DE28;
+}
+
+.textoformacion{
+    color:White;
+    font-family: "Pridi", serif;
+    font-size: 20px;
+    width: 90%;
+    position: absolute;
+    text-align: justify;
+    margin-top: 140px;
+    margin-left: 0px;
+}
+
+.textoformacion:hover{
+    font-size: 24px;
+    color: #43DE28;
+}
+
+.textoformacion h2{
+    color:#43DE28;
+    text-transform: uppercase;
+}
+
+.textoformacion span{
+    font-weight: 200;
+}
+
+.experiencia{
+    color:White;
+    font-family: "Pridi", serif;
+    font-size: 20px;
+    width: 90%;
+    position: absolute;
+    text-align: justify;
+    margin-top: 600px;
+    margin-left: 0px;
+}
+
+.experiencia:hover{
+    font-size: 24px;
+    color: #43DE28;
+    padding-bottom: 20px;
+}
+.experiencia h2{
+    color:#43DE28;
+    text-transform: uppercase;
+}
+
+/*Contacto*/
+
+.formulario{
+    color: white;
+    font-family: "Pridi", serif;
+    font-size: 24px;
+    width: 800px;
+    padding-left: 10px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+fieldset{
+    color: #43DE28;
+}
+
+#formtext{
+    font-size: 24px;
+    background: none;
+    padding: 10px;
+    margin: 10px;
+    color: #fff;
+}
+
+#formtext:hover{
+    background: fixed #43DE28;
+    color: black;
+}
+
+.button{
+    font-size: 24px;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #43DE28;
+    background: none;
+    border-radius: 25px;
+    border-color: white;
+}
+
+.button:hover{
+    color:white;
+    background:#43DE28;
+    border-color: #43DE28 ;
+}
+
+@media screen and (max-width:576px) {
+
+    .imgMulti{
+        display: none;
+    }
+
+    header{
+        width: 70%;
+        margin-left: -50px;
+    }
+
+    header .navbar li a {
+        font-weight: 400;
+        padding:1px;
+        font-size: 0.8em;
+    }
+
+    header .navbar li a:hover{
+        border-bottom: 1px solid #43DE28;
+        color: #43DE28;
+        transition: 0.3s;
+        font-size: 1em;
+    }
+
+    header .logo{
+        font-size: 1.2em;
+        border-radius: 10px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    header .logo:hover{
+        color: #43DE28;
+        transition: 1s;
+        font-size: 1.2em;
+    }
+
+    /*Página Quién soy*/
+    .contenido{
+        width: 70%;
+        margin-left: -400px;
+    }
+
+    .estudiante{
+        width: 460px;
+        margin-left: 16%;
+    }
+
+    .contenido .tituloBox h2{
+        font-size: 1.2em;
+    }
+
+    .contenido .tituloBox h2 span{
+        font-size: 0.7em;
+        padding-left: 1%;
+        margin-right: -28%;
+    }
+
+    .contenido .tituloBox a{
+        font-size: 1em;
+        margin-left: 150px;
+    }
+
+    /*Página CV*/
+
+    body{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .imgCV{
+        display: none;
+    }
+
+            /*textos*/
+
+    .textoCV{
+        max-width: 570px;
+        font-size: 16px;
+        margin-left: 0px;
+        margin-top: -250px;
+        width: 90%;
+    }
+
+    .textoCV ul{
+        max-width: 570px;
+        font-size: 16px;
+        padding-top: 12px; 
+    }
+
+    .textoCV li:hover{
+        font-size: 16px;
+    }
+
+    .textoformacion{
+        font-size: 16px;
+        max-width: 570px;
+        margin-top: 240px;
+        margin-left: 0px;
+    }
+
+    .textoformacion:hover{
+        font-size: 16px;
+    }
+
+    .textoformacion h2{
+        color:#43DE28;
+        text-transform: uppercase;
+    }
+
+    .textoformacion span{
+        font-weight: 200;
+    }
+
+    .experiencia{
+        font-size: 16px;
+        max-width: 570px;
+        position: absolute;
+        text-align: justify;
+        margin-top: 870px;
+        margin-left: 0px;
+        padding-bottom: 20px;
+    }
+
+    .experiencia:hover{
+        font-size: 16px;
+    }
+
+    .copyright{
+        display: none;
+    }
+
+    /*Página Proyectos destacados*/
+
+        /* Imagen 1*/
+
+    .imgP1 a{
+        width: 200px;
+        height: 200px;
+        position:absolute;
+        display: flex;
+        margin-top:-250px;
+        margin-left:-190px;
+        opacity: 100%;
+    }
+    
+    .imgP1 a:hover{
+        margin-top:-250px;
+        margin-left:-190px;
+        width: 200px;
+        height: 200px;
+        z-index: 1;
+    }
+    
+        /* Imagen 2*/
+    
+    .imgP2 a{
+        width: 200px;
+        height: 200px;
+        position:absolute;
+        display: flex;
+        margin-top:0px;
+        margin-left:-190px;
+        opacity: 100%;
+    }
+    
+    .imgP2 a:hover{
+        margin-top:0px;
+        margin-left:-190px;
+        width: 200px;
+        height: 200px;
+        z-index: 1;
+    }
+    
+        /* Imagen 3*/
+    
+    .imgP3 a{
+        width: 200px;
+        height: 200px;
+        position:absolute;
+        display: flex;
+        margin-top:250px;
+        margin-left:-190px;
+        opacity: 100%;
+    }
+    
+    .imgP3 a:hover{
+        margin-top:250px;
+        margin-left:-190px;
+        width: 200px;
+        height: 200px;
+        z-index: 1;
+     }
+    
+        /* Imagen 4*/
+    
+    .imgP4 a{
+        width: 203px;
+        height: 203px;
+        position:absolute;
+        display: flex;
+        margin-top:500px;
+        margin-left:-190px;
+        opacity: 100%;
+    }
+    
+    .imgP4 a:hover{
+        margin-top:500px;
+        margin-left:-190px;
+        width: 203px;
+        height: 203px;
+        z-index: 1;
+    }
+    
+        /* Imagen 5*/
+    
+    .imgP5 a{
+        width: 200px;
+        height: 200px;
+        position:absolute;
+        display: flex;
+        margin-top:750px;
+        margin-left:-190px;
+        opacity: 100%;
+    }
+    
+    .imgP5 a:hover{
+        margin-top:750px;
+        margin-left:-190px;
+        width: 200px;
+        height: 200px;
+        z-index: 1;
+    }
+
+    /*Página Contacto*/
+
+    .formulario{
+        width: 10%;
+        transform: scale(0.57);
+        margin-left: -492px;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    .video{
+        position: fixed;
+        width: auto;
+        height: auto;
+    }
+
+    header .navbar li a {
+        padding:0px;
+        transition: 0.3s;
+        font-size: 1.2em;
+        text-transform: uppercase;
+    }
+
+    header .navbar li a:hover{
+        border-bottom: 1px solid #43DE28;
+        color: #43DE28;
+        transition: 0.3s;
+        font-size: 1.3em;
+    }
+
+    /*Página Quién soy*/
+
+    .imgMulti{
+        width: 300px;
+        height: 300px;
+        margin-top: 200px;
+    }
+
+    .imgMulti:hover{
+        width: 350px;
+        height: 350px;
+        transition: 0.5s;
+        margin-right: 100px;
+        opacity: 95%;
+    }
+
+    .contenido{
+        width: 80%;
+        margin-left: -200px;
+    }
+        
+    .estudiante{
+        width: 460px;
+        margin-left: 16%;
+    }
+        
+    .contenido .tituloBox h2{
+        font-size: 1.2em;
+    }
+        
+    .contenido .tituloBox h2 span{
+        font-size: 0.7em;
+        padding-left: 1%;
+        margin-right: -28%;
+    }
+        
+    .contenido .tituloBox a{
+        font-size: 1em;
+        margin-left: 150px;
+    }
+        
+    .redesSociales{
+        position: absolute;
+        bottom: 10px;
+        }
+
+        /*Página CV*/
+
+    body{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    
+    .imgCV{
+        width: 150px;
+        margin-left: -50px;
+        margin-top: -250px;
+        margin-right: -250px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .imgCV:hover{
+        transform: none;
+        transition: none;
+    }
+    
+            /*textos*/
+    
+    .textoCV{
+        max-width: 992px;
+        font-size: 16px;
+        margin-left: 100px;
+        margin-top: 50px;
+        width: 90%;
+    }
+    
+    .textoCV ul{
+        max-width: 992px;
+        font-size: 16px;
+        padding-top: 12px; 
+    }
+    
+    .textoCV li:hover{
+        font-size: 16px;
+    }
+    
+    .textoformacion{
+        font-size: 16px;
+        max-width: 992px;
+        margin-top: 440px;
+        margin-left: 40px;
+        margin-right: 50px;
+        width: 80%;
+    }
+    
+    .textoformacion:hover{
+        font-size: 16px;
+    }
+    
+    .textoformacion span{
+        font-weight: 200;
+    }
+    
+    .experiencia{
+    
+        font-size: 16px;
+        max-width: 992px;
+        position: absolute;
+        text-align: justify;
+        margin-top: 950px;
+        margin-left: 0px;
+        padding-bottom: 20px;
+        width: 82%;            
+    }
+    
+    .experiencia:hover{
+        font-size: 16px;   
+    }
+
+    .copyright{
+        margin-bottom: -250px;
+        font-size: 12px;
+    }
+
+    /*Página Proyectos destacados*/
+       
+        /* Imagen 1*/
+
+    .imgP1 a{
+        width: 400px;
+        height: 400px;
+        position:absolute;
+        display: flex;
+        margin-top:-250px;
+        margin-left:-380px;
+        opacity: 85%;
+        transition: 3s;
+    }
+
+    .imgP1 a:hover{
+        margin-top:-300px;
+        margin-left:-600px;
+        width: 600px;
+        height: 600px;
+        z-index: 1;
+        opacity: 100%;
+    }
+
+            /* Imagen 2*/
+
+    .imgP2 a{
+        width: 400px;
+        height: 400px;
+        position:absolute;
+        display: flex;
+        margin-top:150px;
+        margin-left:-380px;
+        opacity: 85%;
+        transition: 3s;
+    }
+
+    .imgP2 a:hover{
+        margin-top:150px;
+        margin-left:-600px;
+        width: 600px;
+        height: 600px;
+        z-index: 1;
+        opacity: 100%;
+    }
+
+            /* Imagen 3*/
+
+    .imgP3 a{
+        width: 398px;
+        height: 395px;
+        position:absolute;
+        display: flex;
+        margin-top:550px;
+        margin-left:-380px;
+        opacity: 85%;
+        transition: 3s;
+    }
+
+    .imgP3 a:hover{
+        margin-top:550px;
+        margin-left:-600px;
+        width: 600px;
+        height: 600px;
+        z-index: 1;
+        opacity: 100%;
+    }
+
+            /* Imagen 4*/
+
+    .imgP4 a{
+        width: 403px;
+        height: 403px;
+        position:absolute;
+        display: flex;
+        margin-top:945px;
+        margin-left:-380px;
+        opacity: 85%;
+        transition: 3s;
+    }
+
+    .imgP4 a:hover{
+        margin-top:945px;
+        margin-left:-600px;
+        width: 600px;
+        height: 600px;
+        z-index: 1;
+        opacity: 100%;
+    }
+
+            /* Imagen 5*/
+
+    .imgP5 a{
+        width: 393px;
+        height: 393px;
+        position:absolute;
+        display: flex;
+        margin-top:1346px;
+        margin-left:-380px;
+        opacity: 85%;
+        transition: 3s;
+    }
+
+    .imgP5 a:hover{
+        margin-top:1346px;
+        margin-left:-600px;
+        width: 600px;
+        height: 600px;
+        z-index: 1;
+        opacity: 100%;
+    }
+
+        /*Página Contacto*/
+
+    .formulario{
+        transform: scale(0.9);
+        margin-left: -60px;
+        margin-top: 0px;
+        }
+
+        
+}
+

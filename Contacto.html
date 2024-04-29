@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <video loop autoplay src="video/Contacto3.webm" class="video"></video>
+    <section>
+        <header>
+            <a href="CV.html" class="logo">Ángel Antón Gaitán</a>
+            <ul class="navbar">
+                <li>
+                    <a href="index.html">Quién soy</a>
+                </li>
+                <li>
+                    <a href="CV.html">CV</a>
+                </li>
+                <li>
+                    <a href="ProyectosDestacados.html">Proyectos destacados</a>
+                </li>
+                <li>
+                    <a href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+    
+        </header>
+
+        <div class="formulario">
+            <form action="mailto:angel@hotmail.com" method="post" name="contacto">
+                <fieldset>
+                    Nombre: <input type="text" name="nombre" id="formtext" label="nombre" placeholder="Indica tu nombre" required>
+                    <br>
+                    Apellidos: <input type="text" name="apellidos" id="formtext" label="apellidos" placeholder="Indica tus apellidos"required>
+                    <br>
+                    Número de teléfono: <input type="tel" name="" id="formtext"label="telefono" placeholder="XXX XXX XXX" minlength="9">
+                    <br>
+                    Correo electrónico: <input type="email" name="" id="formtext" label="email" placeholder="ejemplo@ejemplo.com"required>
+                    <br>
+                    Coméntame lo que quieras
+                    <br><textarea name="" id="formtext" cols="60" rows="10" label="comentario"></textarea spellcheck="true" required>
+                    <br><input type="submit" class="button">
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="copyright">
+            <p>&copy;Web personal creada para la materia de Lenguaje de Marcas del CFGS DAM</p>
+        </div>
+</body>
+</html>
